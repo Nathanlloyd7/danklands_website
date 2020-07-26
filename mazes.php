@@ -29,14 +29,14 @@ require "./php-includes/header.inc.php";
                 <p>
                     Rewards:<br>
                     x1 Nature maze token<br>
-                    x8 Honey Apple<br>
-                    x1 Medium Money Bag ($2500)<br>
-                    x2 Rabbit's foot<br>
-                    x3 Wither rose<br>
-                    x8 Honey blocks<br>
+                    x8 Honey Apple <i class="fas fa-apple-alt" style="color:darkgoldenrod" ></i><br>
+                    x1 Medium Money Bag ($2500 <i class="fas fa-coins" style="color:gold"></i>)<br>
+                    x2 Rabbit's foot <i class="fas fa-socks" style="color:white"></i><br>
+                    x3 Wither rose <i class="fas fa-seedling" style="color:black"></i><br>
+                    x8 Honey blocks <i class="fas fa-bug" style="color:gold"></i><br>
                     x1 Bee nest<br>
-                    x1 Farm Starting Kit.<br>
-                    x1 Fig Leaf (Maze set Leggings)
+                    x1 Farm Starting Kit. <i class="fas fa-tractor" style="color:brown"></i><br>
+                    x1 Fig Leaf (Maze set Leggings) <i class="fas fa-tools" style="color:green"> </i>
                 </p>
                 <img src="./images/naturemaze.png" class="feature-rightimg" height="240">
 

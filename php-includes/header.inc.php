@@ -58,7 +58,9 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
+
     <link rel="stylesheet" href="css/style.css?v=<?= time(); ?>">
+    <link rel="stylesheet" href="css/all.css">
 
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="core/bootstrap/css/bootstrap.min.css">
@@ -66,6 +68,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="core/style.css">
+    <link rel="stylesheet" href="core/all.css">
 
     <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
     <script src="core/fontawesome/js/all.js"></script>
