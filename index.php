@@ -3,6 +3,7 @@ const pageTitle = "";
 require "./php-includes/header.inc.php";
 ?>
 <!-- START - Header -->
+        <!-- START - Header -->
         <header class="main-header">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
