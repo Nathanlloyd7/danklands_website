@@ -123,20 +123,22 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
                             <i class="fa fa-bolt" aria-hidden="true"></i></i> FEATURES
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="map.php"></i> LIVE MAP</a>
-                            <a class="dropdown-item" href="mazes.php"></i></i> MAZES</a>
-                            <a class="dropdown-item" href="arenas.php"></i> MOB ARENAS</a>
-                            <a class="dropdown-item" href="features.php"></i> PLUGINS</a>
+                            <a class="dropdown-item" href="map.php"><i class="fas fa-map-pin"></i> LIVE MAP</a>
+                            <a class="dropdown-item" href="mazes.php"><i class="fas fa-dizzy"></i></i></i> MAZES</a>
+                            <a class="dropdown-item" href="arenas.php"><i class="fas fa-icicles"></i></i> MOB ARENAS</a>
+                            <a class="dropdown-item" href="features.php"><i class="fas fa-terminal"></i></i> PLUGINS</a>
                         </div>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-question-circle" aria-hidden="true"></i></i> INFO
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rules.php"></i> RULES</a>
-                            <a class="dropdown-item" href="vote.php"></i></i> VOTE</a>
-                            <a class="dropdown-item" href="staff.php"></i></i> STAFF</a>
-                            <a class="dropdown-item" href="https://danklands.com/bans"></i></i> BANS</a>
+                            <a class="dropdown-item" href="rules.php"><i class="fas fa-pen"></i> RULES</a>
+                            <a class="dropdown-item" href="vote.php"><i class="fas fa-check-circle"></i> VOTE</a>
+                            <a class="dropdown-item" href="staff.php"><i class="fas fa-building"></i> STAFF</a>
+                            <a class="dropdown-item" href="https://danklands.com/bans"><i class="fas fa-gavel"></i> BANS</a>
+                            <a class="dropdown-item" href="https://discord.danklands.com"><i class="fab fa-discord"></i> DISCORD</a>
+
                         </div>
                     </li>
                     <li class="nav-item">

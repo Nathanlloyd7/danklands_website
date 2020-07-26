@@ -24,18 +24,14 @@ require "./php-includes/header.inc.php";
                 <h3 class="text-green">NATURE</h3>
                 <p class="truncate">
                     Spawned from the Gods of the old world, this gift to mankind provides supplies for all on a regular basis. Is it the treasures within calling your name, or is it the very trees themselves? </p>
-                <br> Average Completion Time: ~5 minutes<br>
-                Difficulty: <span style="color:yellow">Medium</span><br></p>
+                    Average Completion Time: ~5 minutes<br>
+                    Difficulty: <span style="color:yellow">Medium</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Nature maze token<br>
-                    x8 Honey Apple <i class="fas fa-apple-alt" style="color:darkgoldenrod" ></i><br>
-                    x1 Medium Money Bag ($2500 <i class="fas fa-coins" style="color:gold"></i>)<br>
-                    x2 Rabbit's foot <i class="fas fa-socks" style="color:white"></i><br>
-                    x3 Wither rose <i class="fas fa-seedling" style="color:black"></i><br>
-                    x8 Honey blocks <i class="fas fa-bug" style="color:gold"></i><br>
-                    x1 Bee nest<br>
-                    x1 Farm Starting Kit. <i class="fas fa-tractor" style="color:brown"></i><br>
+                    x1 Nature maze token <i class="fas fa-ticket-alt" style="color:yellow"></i>, x8 Honey Apple <i class="fas fa-apple-alt" style="color:darkgoldenrod" ></i><br>                   
+                    x1 Medium Money Bag ($2500 ) <i class="fas fa-coins" style="color:gold"></i>, 2 Rabbit's foot <i class="fas fa-socks" style="color:white"></i><br>
+                    x3 Wither rose <i class="fas fa-seedling" style="color:black"></i>, x8 Honey blocks <i class="fas fa-bug" style="color:gold"></i><br>
+                    x1 Bee nest <i class="fab fa-forumbee" style="color:yellow"></i>, x1 Farm Starting Kit. <i class="fas fa-tractor" style="color:brown"></i><br>
                     x1 Fig Leaf (Maze set Leggings) <i class="fas fa-tools" style="color:green"> </i>
                 </p>
                 <img src="./images/naturemaze.png" class="feature-rightimg" height="240">
@@ -49,12 +45,9 @@ require "./php-includes/header.inc.php";
                     Difficulty: <span style="color:green">EASY</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Stonebrick maze token<br>
-                    x16 Bottle o' Enchanting<br>
-                    x8 Diamonds<br>
-                    x8 Emeralds<br>
-                    x16 Iron ingots<br>
-                    x16 Gold ingots
+                    x1 Stonebrick maze token, x16 Bottle o' Enchanting<br>
+                    x8 Diamonds, x8 Emeralds<br>        
+                    x16 Iron ingots, x16 Gold ingots
                 </p>
                 <img src="./images/stonemaze.png" class="feature-leftimg" height="240">
 
@@ -63,16 +56,13 @@ require "./php-includes/header.inc.php";
                 <h3 class="text-green pt-3"><span style="color:blue">SKY</span></h3>
                 <p class="truncate">
                     The skies are howling. There's something strange in the air and it's causing a stir. Some say there's a labrynth or tunnels at the top of the water spire. Many people go in, but not many people come out the same. This maze will push you to the brink of insanity.
-                    <br><br><br> Average Completion Time: ~5 minutes<br>
+                    <br><br> Average Completion Time: ~5 minutes<br>
                     Difficulty: <span style="color:red">Hard</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Sky maze token<br>
-                    x32 Gold ingot<br>
-                    x32 Nether Quartz<br>
-                    x2 Phantom Membrane<br>
-                    x2 Golden Apple (not notch ones)<br>
-                    x1 Medium Money Bag ($2500)<br>
+                    x1 Sky maze token, x32 Gold ingot<br>                   
+                    x32 Nether Quartz, x2 Phantom Membrane<br>
+                    x2 Golden Apple (not notch ones), x1 Medium Money Bag ($2500)<br>
                     x1 Angelic Wings (Maze set Elytra)
                 </p>
                 <img src="./images/skymaze.png" class="feature-rightimg" height="240">
@@ -82,16 +72,13 @@ require "./php-includes/header.inc.php";
                 <h3 class="text-green pt-4"><span style="color:red">VOLCANO</span></h3>
                 <p class="truncate-right">
                     Krakatoa incarnate. This monsterous mountain devours all which has the misfortune of touching the heat of a thousand suns. Civilzation once stood where the gigantic beast now rests. A maze with some serious heat.
-                    <br><br><br> Average Completion Time: ~8 minutes<br>
+                    <br><br> Average Completion Time: ~8 minutes<br>
                     Difficulty: <span style="color:yellow">Medium</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Stonebrick maze token<br>
-                    x16 Bottle o' Enchanting<br>
-                    x8 Diamonds<br>
-                    x8 Emeralds<br>
-                    x16 Iron ingots<br>
-                    x16 Gold ingots
+                    x1 Stonebrick maze token, x16 Bottle o' Enchanting<br>
+                    x8 Diamonds, x8 Emeralds<br>
+                    x16 Iron ingots, x16 Gold ingots
                 </p>
                 <img src="./images/volcanomaze.png" class="feature-left" height="240">
 
@@ -104,16 +91,12 @@ require "./php-includes/header.inc.php";
                     Difficulty: <span style="color:red">Hard</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Abyss maze token<br>
-                    x1 Potion of night vision 3min<br>
-                    x1 Potion of night vision 8min<br>
-                    x2 Phantom membrane<br>
-                    x8 Nether rose<br>
-                    x3 Wither skulls<br>
-                    x4 Netherite ingots<br>
-                    x1 Medium Money Bag ($2500)<br>
-                    x1 Music Disc (Stal)<br>
-                    x1 Abyssal Helmet (Maze set Helmet)
+                    x1 Abyss maze token, x1 Potion of night vision 3min<br>
+                    x1 Potion of night vision 8min, x2 Phantom membrane<br>
+                    x8 Nether rose, x3 Wither skulls<br>
+                    x4 Netherite ingots, x1 Medium Money Bag ($2500)<br>
+                    x1 Music Disc (Stal), x1 Abyssal Helmet (Maze set Helmet)
+                    
                 </p>
                 <img src="./images/voidmaze.png" class="feature-rightimg" height="240">
 
@@ -126,12 +109,9 @@ require "./php-includes/header.inc.php";
                     Difficulty: <span style="color:yellow">Medium</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Ice maze token<br>
-                    x24 Soul torches<br>
-                    x24 Warped stem<br>
-                    x16 Diamonds<br>
-                    x32 Packed ice<br>
-                    x16 Snow blocks<br>
+                    x1 Ice maze token, x24 Soul torches<br>
+                    x24 Warped stem, x16 Diamonds<br>
+                    x32 Packed ice, x16 Snow blocks<br>
                     x1 Ice Maze Pickaxe (Eff5 Unbreak3)
                 </p>
                 <img src="./images/icemaze.png" class="feature-leftimg" height="240">

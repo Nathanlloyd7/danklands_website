@@ -227,14 +227,14 @@ body {
 
 .feature-rightimg{
     margin-left: 60%;
-    margin-top: -550px;
+    margin-top: -420px;
     border: 5px solid green;
 
 }
 
 
 .feature-leftimg{
-    margin-top: -400px;
+    margin-top: -370px;
     margin-right: 80% !important;
     border: 5px solid green;
 
@@ -827,4 +827,19 @@ a.waves-effect, a.waves-light {
     background-color: #222;
     color: white;
     transform: rotateY(180deg);
+  }
+
+  @media screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+          display: block;
+      }
+      .dropdown-menu{
+          margin-top: 0;
+      }
+      .dropdown-toggle{
+          margin-bottom: 2px;
+      }
+      .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+          margin-bottom: 0;
+      }
   }

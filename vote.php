@@ -16,7 +16,7 @@ require "./php-includes/header.inc.php";
 </header>
 <!-- END - Header -->
 
-<!-- START - Session info -->
+<!-- START - Vote info -->
 <section class="section-text-page">
     <div class="container">
         <div class="row">
@@ -24,8 +24,7 @@ require "./php-includes/header.inc.php";
                 <div class="text-page title title-h3">
                     <h3 class="text-green ">Want to help the server grow + earn rewards?</h3>
                 </div>
-                <p>
-                    Voting for the server helps us get seen by more players, which means more people may join the server and maximise the fun! Every single vote seriously helps the server and you get some awesome rewards for doing it as a thank you! Rewards are constantly updated to keep things interesting!
+                <p>Voting for the server helps us get seen by more players, which means more people may join the server and maximise the fun! Every single vote seriously helps the server and you get some awesome rewards for doing it as a thank you! Rewards are constantly updated to keep things interesting!
                     <ol>
                         <li><a href="https://minecraft-mp.com/server/262453/vote/"> Minecraft MP</a></li><br>
                         <li><a href="https://minecraft-server.net/vote/Dipstix/"> Minecraft Server.net</a> </li><br>

@@ -20,25 +20,27 @@ require "./php-includes/header.inc.php";
 <section class="section-text-page">
     <div class="container">
         <div class="row">
+            <!---KHANO INFO--->
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-down-right">
                 <h3 class="text-green"><span style="color:yellow">KHANO</span></h3>
                 <p class="truncate">
                     Some say out in the deserts lies an ancient ruin, in the ruin lies legendary treasures guarded by the souls of those who once ruled over this barren kingdom. They have returned to guard their valuable wares, and won't give them up lightly.</p>
-                <br> Recommended Players: 5 - 12<br>
+                <br> Recommended Players: 4 - 12<br>
                 Difficulty: <span style="color:yellow">Medium</span><br>
                 Rewards: Gkit Crate Key, Gkit+ Crate Key, Gkit++ Crate Key
                 <img src="./images/khano.png" class="feature-rightimgarena" height="240">
             </div>
+            <!---ARATHI INFO--->
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
                 <h3 class="text-green pt-3">ARATHI</h3>
                 <p class="truncate-right">
                     A once wonderous, lush landscape now left abandonded after the dead started to rise from their graves. Nothing was saved from this dense and wild landscape, however some valuables may have been taken by the grasp of the undead and could be recovered.
-                    <br><br><br> Recommended Players: 5 - 12<br>
+                    <br><br><br> Recommended Players: 4 - 12<br>
                     Difficulty: <span style="color:yellow">Medium</span><br>
                     Rewards: Gkit Crate Key, Gkit+ Crate Key, Gkit++ Crate Key </p>
                 <img src="./images/arathi.png" class="feature-leftimgarena" height="240">
             </div>
-
+            <!---GLACIAN INFO--->
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
                 <h3 class="text-green pt-3"><span style="color:blue">GLACIAN</span></h3>
                 <p class="truncate">
@@ -48,7 +50,7 @@ require "./php-includes/header.inc.php";
                     Rewards: Gkit Crate Key, Gkit+ Crate Key, Gkit++ Crate Key</p>
                 <img src="./images/glacian.png" class="feature-rightimgarena" height="240">
             </div>
-
+            <!---COLOSSUS INFO--->
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
                 <h3 class="text-green pt-4"><span style="color:grey">COLOSSUS</span></h3>
                 <p class="truncate-right">

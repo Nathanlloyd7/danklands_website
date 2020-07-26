@@ -1,8 +1,6 @@
 <?php
 const pageTitle = "";
 require "./php-includes/header.inc.php";
-
-
 ?>
 <!-- START - Header -->
 <header class="page-header2">
@@ -17,13 +15,13 @@ require "./php-includes/header.inc.php";
 </header>
 <!-- END - Header -->
 
-<!-- START - Session info -->
+<!-- START - Map iFrame -->
 <section class="section-text-page">
     <iframe src="http://play.danklands.com:8064" width="100%" height="1200">
         <p>Your browser does not support iframes.</p>
     </iframe>
 </section>
-<!-- END - Session info -->
+<!-- END - Map iFrame -->
 <?php
 require "./php-includes/footer.inc.php";
 ?>

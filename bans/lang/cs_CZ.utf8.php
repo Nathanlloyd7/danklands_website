@@ -40,7 +40,7 @@ class Lang {
         $array["info.error.id.invalid"] = "Neplatné ID";
         $array["info.error.id.no-result"] = "Chyba: ";
 
-        $array["warnings.received"] = "Varování doručeno";w
+        $array["warnings.received"] = "Varování doručeno";
         
         //Custom Added by GlareMasters's Material Design Addon
         $array["contact_button"] = "Contact Us";

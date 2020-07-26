@@ -16,15 +16,13 @@ require "./php-includes/header.inc.php";
 </header>
 <!-- END - Header -->
 
-<!-- START - Session info -->
+<!-- START - Guide info -->
 <section class="section-text-page">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="text-green">NEW TO THE SERVER? FEELING A LITTLE LOST?!</h2>
-                <p>
-                    Below you will find a helpful guide on how to get started in the Server.
-                </p>
+                <p>Below you will find a helpful guide on how to get started in the Server.</p>
             </div>
         </div>
         <div class="accordion" id="accordionExample">

@@ -16,7 +16,7 @@ require "./php-includes/header.inc.php";
 </header>
 <!-- END - Header -->
 
-<!-- START - Session info -->
+<!-- START - Rules info -->
 <section class="section-text-page">
     <div class="container" data-aos="zoom-in">
         <div class="row">
@@ -47,7 +47,7 @@ require "./php-includes/header.inc.php";
         </div>
     </div>
 </section>
-<!-- END - Session info -->
+<!-- END - Rules info -->
 <?php
 require "./php-includes/footer.inc.php";
 ?>
