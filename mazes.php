@@ -38,7 +38,7 @@ require "./php-includes/header.inc.php";
                     x1 Farm Starting Kit.<br>
                     x1 Fig Leaf (Maze set Leggings)
                 </p>
-                <img src="./images/naturemaze.png" class="feature-rightimg" height="260">
+                <img src="./images/naturemaze.png" class="feature-rightimg" height="240">
 
             </div>
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
@@ -56,14 +56,14 @@ require "./php-includes/header.inc.php";
                     x16 Iron ingots<br>
                     x16 Gold ingots
                 </p>
-                <img src="./images/stonemaze.png" class="feature-leftimg" height="260">
+                <img src="./images/stonemaze.png" class="feature-leftimg" height="240">
 
             </div>
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
                 <h3 class="text-green pt-3"><span style="color:blue">SKY</span></h3>
                 <p class="truncate">
                     The skies are howling. There's something strange in the air and it's causing a stir. Some say there's a labrynth or tunnels at the top of the water spire. Many people go in, but not many people come out the same. This maze will push you to the brink of insanity.
-                    <br><br><br> Average Completion Time: ~8 minutes<br>
+                    <br><br><br> Average Completion Time: ~5 minutes<br>
                     Difficulty: <span style="color:red">Hard</span><br></p>
                 <p>
                     Rewards:<br>
@@ -75,7 +75,7 @@ require "./php-includes/header.inc.php";
                     x1 Medium Money Bag ($2500)<br>
                     x1 Angelic Wings (Maze set Elytra)
                 </p>
-                <img src="./images/skymaze.png" class="feature-rightimg" height="260">
+                <img src="./images/skymaze.png" class="feature-rightimg" height="240">
 
             </div>
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
@@ -86,16 +86,14 @@ require "./php-includes/header.inc.php";
                     Difficulty: <span style="color:yellow">Medium</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Volcano maze token<br>
-                    x16 Blaze rod<br>
-                    x8 Netherite scrap<br>
-                    x4 Netherite ingot<br>
-                    x32 Iron ingot<br>
-                    x1 Medium Money Bag ($2500)<br>
-                    x1 Music Disc (Pigstep)<br>
-                    x1 Volcanic Boots (Maze set Boots)
+                    x1 Stonebrick maze token<br>
+                    x16 Bottle o' Enchanting<br>
+                    x8 Diamonds<br>
+                    x8 Emeralds<br>
+                    x16 Iron ingots<br>
+                    x16 Gold ingots
                 </p>
-                <img src="./images/volcanomaze.png" class="feature-left" height="260">
+                <img src="./images/volcanomaze.png" class="feature-left" height="240">
 
             </div>
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
@@ -117,7 +115,7 @@ require "./php-includes/header.inc.php";
                     x1 Music Disc (Stal)<br>
                     x1 Abyssal Helmet (Maze set Helmet)
                 </p>
-                <img src="./images/voidmaze.png" class="feature-rightimg" height="260">
+                <img src="./images/voidmaze.png" class="feature-rightimg" height="240">
 
             </div>
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
@@ -136,7 +134,7 @@ require "./php-includes/header.inc.php";
                     x16 Snow blocks<br>
                     x1 Ice Maze Pickaxe (Eff5 Unbreak3)
                 </p>
-                <img src="./images/icemaze.png" class="feature-leftimg" height="260">
+                <img src="./images/icemaze.png" class="feature-leftimg" height="240">
             </div>
         </div>
     </div>

@@ -3,32 +3,33 @@ const pageTitle = "";
 require "./php-includes/header.inc.php";
 // If the user is not logged in redirect to the login page...
 if (!isset($_SESSION['loggedin'])) {
-	header('Location: index.php');
-	exit;
+    header('Location: index.php');
+    exit;
 }
 ?>
-<p>Welcome back, <?=$_SESSION['name']?>!</p>
+
 
 <!-- START - Header -->
-        <!-- START - Header -->
-        <header class="main-header">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 text-center">
-                        <h1 class="font-weight-light main-font-big">THE DANKLANDS</h1>
-                        <p class="main-font-small" id="server-ip">play.danklands.com</p>
-                        <div class="container server-status">
-                            <div class="alert alert-success text-center button-glow text-uppercase server-ip-copy" role="alert">
-                                <h4 class="alert-heading pulse animated serverIP">
-                                    Join <b><span server-ip="play.danklands.com"><i class="fas fa-spinner fa-spin"></i></span></b> players on the server!<br>
-                                    <small>(Click to copy ip server)</small>
-                                </h4>
-                            </div>
-                        </div>
+<!-- START - Header -->
+<header class="main-header">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <h1 class="font-weight-light main-font-big">THE DANKLANDS</h1>
+                <p class="main-font-small" id="server-ip">play.danklands.com</p>
+                <div class="container server-status">
+                    <div class="alert alert-success text-center button-glow text-uppercase server-ip-copy" role="alert">
+                        <h4 class="alert-heading pulse animated serverIP">
+                            Join <b><span server-ip="play.danklands.com"><i class="fas fa-spinner fa-spin"></i></span></b> players on the server!<br>
+                            <small>(Click to copy ip server)</small>
+                        </h4>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </div>
+        <p>Welcome back, <?= $_SESSION['name'] ?>!</p>
+</header>
 <!-- END - Header -->
 <!-- START - Session info -->
 <section class="main-session-info">

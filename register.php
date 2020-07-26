@@ -45,7 +45,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?'
 		if ($stmt = $con->prepare('INSERT INTO accounts (username, password, email, activation_code) VALUES (?, ?, ?, ?)')) {
 			$password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 			$uniqid = uniqid();
-			$stmt->bind_param('ssss', $_POST['username'], $password, $_POST['email'], $uniqid);
+			$stmt->bind_param('ssss', $_POST['username'], $password, $_POST['email'], $uniqid);			
 			$stmt->execute();
 			$from    = 'noreply@danklands.com';
 			$subject = 'Account Activation Required';

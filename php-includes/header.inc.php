@@ -1,7 +1,5 @@
 <?php
 $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . "The Danklands - Minecraft RPG Survival", ENT_HTML5);
-session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -29,6 +27,7 @@ session_start();
     <meta name="distribution" content="Global">
     <meta name="rating" content="General">
     <meta name="revisit-after" content="7 days">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <!-- Open Graph Cards -->
     <meta property="og:title" content="<?= $actualPageTitle; ?>">
     <meta property="og:description" content="The Danklands - Minecraft RPG Survival">
@@ -70,12 +69,12 @@ session_start();
 
     <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
     <script src="core/fontawesome/js/all.js"></script>
-    <link rel="stylesheet" href="core/cookies/cookieconsent.min.css">
+            <link rel="stylesheet" href="core/cookies/cookieconsent.min.css">
 
-    <script src="core/cookies/cookieconsent.min.js"></script>
-    <script>
-        window.addEventListener("load", function() {
-            window.cookieconsent.initialise({
+        <script src="core/cookies/cookieconsent.min.js"></script>
+        <script>
+            window.addEventListener("load", function(){
+                window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
                         "background": "#4CAF50",
@@ -93,9 +92,9 @@ session_start();
                     "link": "Learn more about cookies <i class='fas fa-external-link-alt fa-xs'></i>",
                     "href": "https://www.cookiesandyou.com/"
                 }
-            })
-        });
-    </script>
+                })
+            });
+        </script>
 </head>
 
 <body>
@@ -121,22 +120,20 @@ session_start();
                             <i class="fa fa-bolt" aria-hidden="true"></i></i> FEATURES
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="map.php"><i class="fas fa-map-pin"></i> LIVE MAP</a>
-                            <a class="dropdown-item" href="mazes.php"><i class="fas fa-dizzy"></i></i></i> MAZES</a>
-                            <a class="dropdown-item" href="arenas.php"><i class="fas fa-icicles"></i></i> MOB ARENAS</a>
-                            <a class="dropdown-item" href="features.php"><i class="fas fa-terminal"></i></i> PLUGINS</a>
+                            <a class="dropdown-item" href="map.php"></i> LIVE MAP</a>
+                            <a class="dropdown-item" href="mazes.php"></i></i> MAZES</a>
+                            <a class="dropdown-item" href="arenas.php"></i> MOB ARENAS</a>
+                            <a class="dropdown-item" href="features.php"></i> PLUGINS</a>
                         </div>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-question-circle" aria-hidden="true"></i></i> INFO
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rules.php"><i class="fas fa-pen"></i> RULES</a>
-                            <a class="dropdown-item" href="vote.php"><i class="fas fa-check-circle"></i> VOTE</a>
-                            <a class="dropdown-item" href="staff.php"><i class="fas fa-building"></i> STAFF</a>
-                            <a class="dropdown-item" href="https://danklands.com/bans"><i class="fas fa-gavel"></i> BANS</a>
-                            <a class="dropdown-item" href="https://discord.danklands.com"><i class="fab fa-discord"></i> DISCORD</a>
-
+                            <a class="dropdown-item" href="rules.php"></i> RULES</a>
+                            <a class="dropdown-item" href="vote.php"></i></i> VOTE</a>
+                            <a class="dropdown-item" href="staff.php"></i></i> STAFF</a>
+                            <a class="dropdown-item" href="https://danklands.com/bans"></i></i> BANS</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -148,77 +145,10 @@ session_start();
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" data-toggle="modal" data-target="#login"><i class="fas fa-user"></i> LOGIN</a>
+                        <a class="nav-link btn btn-primary" href="https://discord.danklands.com"><i class="fab fa-discord"></i> DISCORD</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Modal -->
-    <div class="modal fade loginModal" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="login">LOGIN TO ACCOUNT</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="login">
-                        <form action="authenticate.php" method="post">
-                            <label for="username">
-                                <i class="fas fa-user"></i>
-                            </label>
-                            <input type="text" name="username" placeholder="Username" id="username" required>
-                            <label for="password">
-                                <i class="fas fa-lock"></i>
-                            </label>
-                            <input type="password" name="password" placeholder="Password" id="password" required>
-                            <input type="submit" value="Login">
-                        </form>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#register">Register</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade loginModal" id="register" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="login">REGISTER ACCOUNT</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="login">
-                        <form action="register.php" method="post" autocomplete="off">
-                            <label for="username">
-                                <i class="fas fa-user"></i>
-                            </label>
-                            <input type="text" name="username" placeholder="Username" id="username" required>
-                            <label for="password">
-                                <i class="fas fa-lock"></i>
-                            </label>
-                            <input type="password" name="password" placeholder="Password" id="password" required>
-                            <label for="email">
-                                <i class="fas fa-envelope"></i>
-                            </label>
-                            <input type="email" name="email" placeholder="Email" id="email" required>
-                            <input type="submit" value="Register">
-                        </form>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- END - Navigation & Menu -->
