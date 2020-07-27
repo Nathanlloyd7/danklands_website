@@ -293,12 +293,14 @@ body {
   -moz-columns: 2;
 }
 
-.table {
+.table{
   color: white;
   width: 1050px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: normal !important;
 }
+
 
 .ol-vote {
   columns: 3 !important;

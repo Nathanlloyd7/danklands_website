@@ -65,6 +65,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="core/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="core/style.css">
@@ -142,7 +143,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
                         <a class="nav-link" href="http://store.danklands.com"><i class="fas fa-store-alt"></i></i> WEBSTORE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.patreon.com/thedanklands"><i class="fas fa-store"></i> DONATE</a>
+                        <a class="nav-link" href="https://www.patreon.com/thedanklands"><i class="fa fa-patreon" aria-hidden="true"></i> PATREON</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">

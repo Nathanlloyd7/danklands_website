@@ -28,17 +28,17 @@ require "./php-includes/header.inc.php";
                     Difficulty: <span style="color:yellow">Medium</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Nature maze token, x8 Honey Apple<br>                   
-                    x1 Medium Money Bag ($2500 , 2 Rabbit's foot<br>
+                    x1 Nature maze token, x8 Honey Apple<br>
+                    x1 Medium Money Bag ($2500), 2 Rabbit's foot<br>
                     x3 Wither rose, x8 Honey blocks<br>
-                    x1 Bee nest, x1 Farm Starting Kit.</i><br>
+                    x1 Bee nest, x1 Farm Starting Kit</i><br>
                     x1 Fig Leaf (Maze set Leggings)
                 </p>
                 <img src="./images/naturemaze.png" class="feature-rightimg" height="240">
-
             </div>
+
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
-                <h3 class="pt-3"><span style="color:grey">Stonebrick</h3>
+                <h3 class="pt-3"><span style="color:grey">STONEBRICK</h3>
                 <p class="truncate-right">
                     Carved by the dwarves from deep underground. Forged through rock, soil and earth. This maze provides the curious miner with valuable ores and minerals, should you be able to handle the narrow halls and claustrophobic atmosphere.
                     <br><br> Average Completion Time: ~5 minutes<br>
@@ -50,8 +50,8 @@ require "./php-includes/header.inc.php";
                     x16 Iron ingots, x16 Gold ingots
                 </p>
                 <img src="./images/stonemaze.png" class="feature-leftimg" height="240">
-
             </div>
+
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
                 <h3 class="text-green pt-3"><span style="color:blue">SKY</span></h3>
                 <p class="truncate">
@@ -66,8 +66,8 @@ require "./php-includes/header.inc.php";
                     x1 Angelic Wings (Maze set Elytra)
                 </p>
                 <img src="./images/skymaze.png" class="feature-rightimg" height="240">
-
             </div>
+
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
                 <h3 class="text-green pt-4"><span style="color:red">VOLCANO</span></h3>
                 <p class="truncate-right">
@@ -81,8 +81,8 @@ require "./php-includes/header.inc.php";
                     x16 Iron ingots, x16 Gold ingots
                 </p>
                 <img src="./images/volcanomaze.png" class="feature-left" height="240">
-
             </div>
+
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
                 <h3 class="text-green pt-4"><span style="color:black">VOID</span></h3>
                 <p class="truncate">
@@ -95,12 +95,11 @@ require "./php-includes/header.inc.php";
                     x1 Potion of night vision 8min, x2 Phantom membrane<br>
                     x8 Nether rose, x3 Wither skulls<br>
                     x4 Netherite ingots, x1 Medium Money Bag ($2500)<br>
-                    x1 Music Disc (Stal), x1 Abyssal Helmet (Maze set Helmet)
-                    
+                    x1 Music Disc (Stal), x1 Abyssal Helmet (Maze set Helmet)                   
                 </p>
                 <img src="./images/voidmaze.png" class="feature-rightimg" height="240">
-
             </div>
+
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
                 <h3 class="text-green pt-4"><span style="color:blue">ICE</span></h3>
                 <p class="truncate-right">
@@ -116,6 +115,7 @@ require "./php-includes/header.inc.php";
                 </p>
                 <img src="./images/icemaze.png" class="feature-leftimg" height="240">
             </div>
+
         </div>
     </div>
 </section>

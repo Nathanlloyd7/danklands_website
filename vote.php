@@ -46,7 +46,7 @@ require "./php-includes/header.inc.php";
                             </a> </li><br>
                     </ul>
                     <table class="table">
-                        <thead>
+                        <thead class="vote-head">
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Prize</th>
