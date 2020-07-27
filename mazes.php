@@ -28,11 +28,11 @@ require "./php-includes/header.inc.php";
                     Difficulty: <span style="color:yellow">Medium</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Nature maze token <i class="fas fa-ticket-alt" style="color:yellow"></i>, x8 Honey Apple <i class="fas fa-apple-alt" style="color:darkgoldenrod" ></i><br>                   
-                    x1 Medium Money Bag ($2500 ) <i class="fas fa-coins" style="color:gold"></i>, 2 Rabbit's foot <i class="fas fa-socks" style="color:white"></i><br>
-                    x3 Wither rose <i class="fas fa-seedling" style="color:black"></i>, x8 Honey blocks <i class="fas fa-bug" style="color:gold"></i><br>
-                    x1 Bee nest <i class="fab fa-forumbee" style="color:yellow"></i>, x1 Farm Starting Kit. <i class="fas fa-tractor" style="color:brown"></i><br>
-                    x1 Fig Leaf (Maze set Leggings) <i class="fas fa-tools" style="color:green"> </i>
+                    x1 Nature maze token, x8 Honey Apple<br>                   
+                    x1 Medium Money Bag ($2500 , 2 Rabbit's foot<br>
+                    x3 Wither rose, x8 Honey blocks<br>
+                    x1 Bee nest, x1 Farm Starting Kit.</i><br>
+                    x1 Fig Leaf (Maze set Leggings)
                 </p>
                 <img src="./images/naturemaze.png" class="feature-rightimg" height="240">
 

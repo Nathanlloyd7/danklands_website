@@ -23,7 +23,7 @@ require "./php-includes/header.inc.php";
             <div class="col-lg-12 text-left">
                 <h3 class="text-green ">Here's the rules. Please follow them.</h3>
                 <p>
-                    <ol>
+                    <ol> 
                         <li><b>Excessive Capital Letters:</b> Abuse of capital letters in a message. This sometimes can be when you chose to use caps lock instead of using shift for capital letter. If your message is deemed as using excessive capital letters you will be warned.</li><br>
                         <li><b>Spamming in Chat:</b> Abusing chat by spamming a series of messages in rapid succession. If you would like to say something in chat please keep it to one or two messages rather than spamming the chat. </li><br>
                         <li><b>Staff/Player Disrespect:</b> Any disrespect towards a fellow player or staff member. We will not tolerate any sort of disrespect toward another person on our server.</li><br>

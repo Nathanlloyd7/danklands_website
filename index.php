@@ -42,7 +42,9 @@ require "./php-includes/header.inc.php";
     </div>
 </section>
 <!-- END - Session info -->
-
+<script>
+    var ip_copy_success_text = "The IP address has been copied!";
+</script>
 <?php
 require "./php-includes/footer.inc.php";
 ?>

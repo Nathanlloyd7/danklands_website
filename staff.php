@@ -32,7 +32,7 @@ require "./php-includes/header.inc.php";
 </section>
 
 <section class="bg-light-small">
-    <div class="container">
+    <div class="container staffDeck">
         <div class="row justify-content-center">
             <div class="col-md-2">
                 <div class="card staffcard" data-aos="fade-up">
@@ -123,7 +123,7 @@ require "./php-includes/header.inc.php";
                     <a href="#" class="btn btn-primary staffButton">INFO</a>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>

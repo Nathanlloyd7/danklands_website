@@ -24,7 +24,7 @@ require "./php-includes/header.inc.php";
                 <h3 class="text-green">ADVANCED ENCHANTMENTS</h3>
                 <p class="truncate">
                     Looking to take your gear to a whole new level? We’ve got you covered. With over 130+ custom enchants on our server you can tweak and tinker with your items forever to make them just right for you and become unstoppable. We also use amazing gKits for next level godly items! If you're lucky enough to win a gKit in a competition, puzzle, or mini game you'll be slaying foes left and right with ease!
-                    <br> You can find out more about Advanced Enchantments<a href="https://github.com/GC-spigot/AdvancedEnchantments/wiki/%C3%86-Custom-Enchantments"> here.</a></p><br><br>
+                    <br> You can find out more about Advanced Enchantments<a href="https://github.com/GC-spigot/AdvancedEnchantments/wiki/%C3%86-Custom-Enchantments"> here.</a></p>
                 <video class="feature-right" width="320" height="240" autoplay="true" loop="true">
                     <source src="/images/enchants.mp4" type="video/mp4">
                     Your browser does not support the video tag.
@@ -39,7 +39,7 @@ require "./php-includes/header.inc.php";
                 <video class="feature-left" width="320" height="240" autoplay="true" loop="true">
                     <source src="/images/lands.mp4" type="video/mp4">
                     Your browser does not support the video tag.
-                </video>
+                </video><br><br>
             </div>
 
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
@@ -89,7 +89,9 @@ require "./php-includes/header.inc.php";
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
                 <h3 class="text-green pt-3">AWESOME, POWERFUL RANKS</h3>
                 <p class="truncate">
-                    Sick and tired of all those pay to win servers? Well worry no more! All of our amazing rank permissions are earnable through play time and dedication alone! Paid ranks are cosmetic only! You will never feel like other players have an unfair advantage again!</a> </p><br><br><br>
+                    Sick and tired of all those pay to win servers? Well worry no more! All of our amazing rank permissions are earnable through play time and dedication alone! Paid ranks are cosmetic only! You will never feel like other players have an unfair advantage again!</a> </p><br>
+                    Current Ranks: I, II, III, IV, V, VI, VII, VIII, IX, X, DANK, DANKER, DANKEST<br>
+                    (Prestige options also available!)<br>
 
                 <video class="feature-right" width="320" height="240" autoplay="true" loop="true">
                     <source src="/images/ranks.mp4" type="video/mp4">

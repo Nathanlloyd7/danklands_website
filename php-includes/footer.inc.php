@@ -54,9 +54,7 @@
         <script src="core/bootstrap/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
-        <script>
-            var ip_copy_success_text = "The IP address has been copied!";
-        </script>
+
         <script src="core/custom-js/alerts.js"></script>
         <script src="core/custom-js/players-online.min.js"></script>
         </body>

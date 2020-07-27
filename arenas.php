@@ -55,7 +55,7 @@ require "./php-includes/header.inc.php";
                 <h3 class="text-green pt-4"><span style="color:grey">COLOSSUS</span></h3>
                 <p class="truncate-right">
                     A powerful wizard's experiment gone wrong. Meant to bring peace and prosperity to the lands, now is the harbourer of evil and death. The onslaught is relentless and overwhelming. Are you ready to take on this challenge and fight against the dark forces?
-                    <br><br><br> Recommended Players: 2 - 6<br>
+                    <br><br><br> Recommended Players: 2 - 4<br>
                     Difficulty: <span style="color:red">Hard</span><br>
                     Rewards: Gkit Crate Key, Gkit+ Crate Key, Gkit++ Crate Key</p>
                 <img src="./images/colossus.png" class="feature-leftimgarena" height="240">

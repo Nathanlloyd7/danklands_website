@@ -68,11 +68,9 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="core/style.css">
-    <link rel="stylesheet" href="core/all.css">
 
     <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
-    <script src="core/fontawesome/js/all.js"></script>
-            <link rel="stylesheet" href="core/cookies/cookieconsent.min.css">
+
 
         <script src="core/cookies/cookieconsent.min.js"></script>
         <script>
@@ -138,7 +136,6 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
                             <a class="dropdown-item" href="staff.php"><i class="fas fa-building"></i> STAFF</a>
                             <a class="dropdown-item" href="https://danklands.com/bans"><i class="fas fa-gavel"></i> BANS</a>
                             <a class="dropdown-item" href="https://discord.danklands.com"><i class="fab fa-discord"></i> DISCORD</a>
-
                         </div>
                     </li>
                     <li class="nav-item">
