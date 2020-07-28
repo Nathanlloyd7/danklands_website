@@ -80,7 +80,7 @@ require "./php-includes/header.inc.php";
                     x8 Diamonds, x8 Emeralds<br>
                     x16 Iron ingots, x16 Gold ingots
                 </p>
-                <img src="./images/volcanomaze.png" class="feature-left" height="240">
+                <img src="./images/volcano.png" class="feature-leftimg" height="240">
             </div>
 
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">

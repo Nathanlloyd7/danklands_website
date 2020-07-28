@@ -8,7 +8,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
 <head>
     <title><?= $actualPageTitle; ?></title> <!-- Meta tags (SEO) -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="keywords" content="minecraft,mc,servers,minigames,survival,danklands,the danklands,dank,lands">
     <meta name="description" content="The Danklands - Minecraft RPG Survival">
@@ -16,10 +16,10 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
     <meta name="copyright" content="The Danklands">
     <meta name="language" content="EN">
     <meta name="robots" content="index,follow">
-    <meta name="author" content="Niall 'Shadow' Bainbridge">
-    <meta name="designer" content="Niall 'Shadow' Bainbridge">
+    <meta name="author" content="Shadow'">
+    <meta name="designer" content="'Shadow'">
     <meta name="reply-to" content="thedanklands@gmail.com">
-    <meta name="owner" content="Niall 'Shadow' Bainbridge">
+    <meta name="owner" content="'Shadow'">
     <meta name="url" content="https://danklands.com">
     <meta name="identifier-URL" content="https://danklands.com">
     <meta name="directory" content="submission">
@@ -132,6 +132,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
                             <i class="fa fa-question-circle" aria-hidden="true"></i></i> INFO
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="guide.php"><i class="fas fa-hands-helping"></i> GUIDE</a>
                             <a class="dropdown-item" href="rules.php"><i class="fas fa-pen"></i> RULES</a>
                             <a class="dropdown-item" href="vote.php"><i class="fas fa-check-circle"></i> VOTE</a>
                             <a class="dropdown-item" href="staff.php"><i class="fas fa-building"></i> STAFF</a>
