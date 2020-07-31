@@ -34,7 +34,7 @@ require "./php-includes/header.inc.php";
                     x1 Bee nest, x1 Farm Starting Kit</i><br>
                     x1 Fig Leaf (Maze set Leggings)
                 </p>
-                <img src="./images/naturemaze.png" class="feature-rightimg" height="240">
+                <img src="./images/naturemaze.png" alt="Nature Maze Map" class="feature-rightimg" height="240">
             </div>
 
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
@@ -46,10 +46,10 @@ require "./php-includes/header.inc.php";
                 <p>
                     Rewards:<br>
                     x1 Stonebrick maze token, x16 Bottle o' Enchanting<br>
-                    x8 Diamonds, x8 Emeralds<br>        
+                    x8 Diamonds, x8 Emeralds<br>
                     x16 Iron ingots, x16 Gold ingots
                 </p>
-                <img src="./images/stonemaze.png" class="feature-leftimg" height="240">
+                <img src="./images/stonemaze.png" alt="Stonebrick Map" class="feature-leftimg" height="240">
             </div>
 
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
@@ -60,12 +60,12 @@ require "./php-includes/header.inc.php";
                     Difficulty: <span style="color:red">Hard</span><br></p>
                 <p>
                     Rewards:<br>
-                    x1 Sky maze token, x32 Gold ingot<br>                   
+                    x1 Sky maze token, x32 Gold ingot<br>
                     x32 Nether Quartz, x2 Phantom Membrane<br>
                     x2 Golden Apple (not notch ones), x1 Medium Money Bag ($2500)<br>
                     x1 Angelic Wings (Maze set Elytra)
                 </p>
-                <img src="./images/skymaze.png" class="feature-rightimg" height="240">
+                <img src="./images/skymaze.png" alt="Sky Maze Map" class="feature-rightimg" height="240">
             </div>
 
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
@@ -80,7 +80,7 @@ require "./php-includes/header.inc.php";
                     x8 Diamonds, x8 Emeralds<br>
                     x16 Iron ingots, x16 Gold ingots
                 </p>
-                <img src="./images/volcano.png" class="feature-leftimg" height="240">
+                <img src="./images/volcano.png" alt="Volcano Map" class="feature-leftimg" height="240">
             </div>
 
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
@@ -95,9 +95,9 @@ require "./php-includes/header.inc.php";
                     x1 Potion of night vision 8min, x2 Phantom membrane<br>
                     x8 Nether rose, x3 Wither skulls<br>
                     x4 Netherite ingots, x1 Medium Money Bag ($2500)<br>
-                    x1 Music Disc (Stal), x1 Abyssal Helmet (Maze set Helmet)                   
+                    x1 Music Disc (Stal), x1 Abyssal Helmet (Maze set Helmet)
                 </p>
-                <img src="./images/voidmaze.png" class="feature-rightimg" height="240">
+                <img src="./images/voidmaze.png" alt="Void Maze Map" class="feature-rightimg" height="240">
             </div>
 
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
@@ -113,7 +113,7 @@ require "./php-includes/header.inc.php";
                     x32 Packed ice, x16 Snow blocks<br>
                     x1 Ice Maze Pickaxe (Eff5 Unbreak3)
                 </p>
-                <img src="./images/icemaze.png" class="feature-leftimg" height="240">
+                <img src="./images/icemaze.png" alt="Ice Maze Map" class="feature-leftimg" height="240">
             </div>
 
         </div>

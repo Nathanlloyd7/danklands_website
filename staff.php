@@ -36,7 +36,7 @@ require "./php-includes/header.inc.php";
         <div class="row justify-content-center">
             <div class="col-md-2">
                 <div class="card staffcard" data-aos="fade-up">
-                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/956faa3f-df9e-402b-bc13-39c03d4b4a5b" width="100%">
+                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/956faa3f-df9e-402b-bc13-39c03d4b4a5b" alt="1Jack Admin Avatar" width="100%">
                     <div class="card-body text-center">
                         <h5 class="card-title">
                             1JACK<br>
@@ -51,7 +51,7 @@ require "./php-includes/header.inc.php";
 
             <div class="col-md-2">
                 <div class="card staffcard" data-aos="fade-up">
-                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/f7d446ec-955b-494c-b1bd-869fad5e58e2" width="100%">
+                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/f7d446ec-955b-494c-b1bd-869fad5e58e2" alt="DONT DISTURB Head Admin Avatar" width="100%">
                     <div class="card-body text-center">
                         <h5 class="card-title">
                             DONT DISTURB<br>
@@ -66,7 +66,7 @@ require "./php-includes/header.inc.php";
 
             <div class="col-md-2">
                 <div class="card staffcard" data-aos="fade-up">
-                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/9e289f35-29e4-446c-b7ce-72557a553221" width="100%">
+                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/9e289f35-29e4-446c-b7ce-72557a553221" alt="Shadow Owner Avatar" width="100%">
                     <div class="card-body text-center">
                         <h5 class="card-title">
                             SHADOW<br>
@@ -81,7 +81,7 @@ require "./php-includes/header.inc.php";
 
             <div class="col-md-2">
                 <div class="card staffcard" data-aos="fade-up">
-                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/73d7d7a0-40df-4c8c-bed6-819a45ba34e5" width="100%">
+                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/73d7d7a0-40df-4c8c-bed6-819a45ba34e5" alt="LFW Co-Owner Avatar" width="100%">
                     <div class="card-body text-center">
                         <h5 class="card-title">
                             LFW<br>
@@ -96,7 +96,7 @@ require "./php-includes/header.inc.php";
 
             <div class="col-md-2">
                 <div class="card staffcard" data-aos="fade-up">
-                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/baf18c06-5bd1-41af-9677-06f5825cc5cf" width="100%">
+                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/baf18c06-5bd1-41af-9677-06f5825cc5cf" alt="Winterflow Admin Avatar" width="100%">
                     <div class="card-body text-center">
                         <h5 class="card-title">
                             WINTER FLOW<br>
@@ -111,7 +111,7 @@ require "./php-includes/header.inc.php";
 
             <div class="col-md-2">
                 <div class="card staffcard" data-aos="fade-up">
-                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/950f34c2-dbfa-4e1b-8b31-eedfa1742f05" width="100%">
+                    <img class="card-img-top" src="https://visage.surgeplay.com/full/512/950f34c2-dbfa-4e1b-8b31-eedfa1742f05" alt="GR CRAFTER Helper Avatar" width="100%">
                     <div class="card-body text-center">
                         <h5 class="card-title">
                             GR CRAFTER<br>

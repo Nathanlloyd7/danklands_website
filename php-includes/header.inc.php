@@ -107,7 +107,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
     <!-- START - Navigation & Menu -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.php"><img src="/images/danklands_logo.png" width="35" height="35"> THE DANKLANDS</a>
+            <a class="navbar-brand" href="index.php"><img src="/images/danklands_logo.png" alt="DankLands Logo" width="35" height="35"> THE DANKLANDS</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>

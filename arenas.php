@@ -28,7 +28,7 @@ require "./php-includes/header.inc.php";
                 <br> Recommended Players: 4 - 12<br>
                 Difficulty: <span style="color:yellow">Medium</span><br>
                 Rewards: Gkit Crate Key, Gkit+ Crate Key, Gkit++ Crate Key
-                <img src="./images/khano.png" class="feature-rightimgarena" height="240">
+                <img src="./images/khano.png" alt="Khano Arena" class="feature-rightimgarena" height="240">
             </div>
             <!---ARATHI INFO--->
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
@@ -38,7 +38,7 @@ require "./php-includes/header.inc.php";
                     <br><br><br> Recommended Players: 4 - 12<br>
                     Difficulty: <span style="color:yellow">Medium</span><br>
                     Rewards: Gkit Crate Key, Gkit+ Crate Key, Gkit++ Crate Key </p>
-                <img src="./images/arathi.png" class="feature-leftimgarena" height="240">
+                <img src="./images/arathi.png" alt="Arathi Arena" class="feature-leftimgarena" height="240">
             </div>
             <!---GLACIAN INFO--->
             <div class="col-lg-12 text-left pb-2 bordered" data-aos="fade-right">
@@ -48,7 +48,7 @@ require "./php-includes/header.inc.php";
                     <br><br><br> Recommended Players: 2 - 4<br>
                     Difficulty: <span style="color:red">Hard</span><br>
                     Rewards: Gkit Crate Key, Gkit+ Crate Key, Gkit++ Crate Key</p>
-                <img src="./images/glacian.png" class="feature-rightimgarena" height="240">
+                <img src="./images/glacian.png" alt="Glacian Arena" class="feature-rightimgarena" height="240">
             </div>
             <!---COLOSSUS INFO--->
             <div class="col-lg-12 text-right pb-2 bordered" data-aos="fade-left">
@@ -58,7 +58,7 @@ require "./php-includes/header.inc.php";
                     <br><br><br> Recommended Players: 2 - 4<br>
                     Difficulty: <span style="color:red">Hard</span><br>
                     Rewards: Gkit Crate Key, Gkit+ Crate Key, Gkit++ Crate Key</p>
-                <img src="./images/colossus.png" class="feature-leftimgarena" height="240">
+                <img src="./images/colossus.png" alt="Colossus Arena" class="feature-leftimgarena" height="240">
             </div>
         </div>
     </div>
