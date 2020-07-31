@@ -19,7 +19,7 @@
                             <ul class="footer-links ul-resource">
                                 <li><a href="https://discord.danklands.com">Discord</a></li>
                                 <li><a href="https://store.danklands.com">Webstore</a></li>
-                                <li><a href="map.php">Live Map</a></li>
+                                <li><a href="http://play.danklands.com:8064/">Live Map</a></li>
                                 <li><a href="http://play.danklands.com:8175/">Server Stats</a></li>
                                 <li><a href="https://danklands.com/bans/">Ban List</a></li>
                             </ul>

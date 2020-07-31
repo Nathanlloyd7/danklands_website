@@ -122,7 +122,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
                             <i class="fa fa-bolt" aria-hidden="true"></i></i> FEATURES
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="map.php"><i class="fas fa-map-pin"></i> LIVE MAP</a>
+                            <a class="dropdown-item" href="http://play.danklands.com:8064"><i class="fas fa-map-pin"></i> LIVE MAP</a>
                             <a class="dropdown-item" href="mazes.php"><i class="fas fa-dizzy"></i></i></i> MAZES</a>
                             <a class="dropdown-item" href="arenas.php"><i class="fas fa-icicles"></i></i> MOB ARENAS</a>
                             <a class="dropdown-item" href="features.php"><i class="fas fa-terminal"></i></i> PLUGINS</a>
@@ -137,7 +137,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
                             <a class="dropdown-item" href="vote.php"><i class="fas fa-check-circle"></i> VOTE</a>
                             <a class="dropdown-item" href="staff.php"><i class="fas fa-building"></i> STAFF</a>
                             <a class="dropdown-item" href="https://danklands.com/bans"><i class="fas fa-gavel"></i> BANS</a>
-                            <a class="dropdown-item" href="https://discord.danklands.com"><i class="fab fa-discord"></i> DISCORD</a>
+                            <a class="dropdown-item" href="https://discord.danklands.com"><i class="fa fa-discord"></i> DISCORD</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -149,7 +149,7 @@ $actualPageTitle = htmlentities((pageTitle === "" ? "" : (pageTitle . " - ")) . 
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="https://discord.danklands.com"><i class="fab fa-discord"></i> DISCORD</a>
+                        <a class="nav-link btn btn-primary" href="https://discord.danklands.com"><i class="fa fa-discord fa-lg"></i></a>
                     </li>
                 </ul>
             </div>
